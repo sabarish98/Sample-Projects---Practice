@@ -1,0 +1,29 @@
+/* div.welcome {
+  text-align: center;
+  position: relative;
+}
+.count{
+  text-align: center;
+  
+} */
+html,body{
+  height: 100%;
+  
+}
+.heading{
+  background-color: bisque;
+  text-align: center;
+}
+.main{
+  height: 100%;
+  background-color: rgba(136, 27, 142, 0.838);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show{
+  text-align: center;
+}
+.view{
+  text-align: center;
+}
