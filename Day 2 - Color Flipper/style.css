@@ -1,0 +1,22 @@
+html,body{
+    height: 100%;
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.viewer{
+    background-color: black;
+    color: white;
+    font: outline;
+    font-style: italic;
+    font-family: Cambria;
+}
+.color{
+    color: lawngreen;
+}
+.click{
+    text-align:center;
+} 
