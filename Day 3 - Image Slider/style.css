@@ -1,0 +1,19 @@
+html,body{
+    height: 100%;
+}
+.hbody{
+    background-color: maroon;
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    transition: ease-in;
+}
+.btn-container{
+    /* display: flex; */
+    text-align: center;
+}
