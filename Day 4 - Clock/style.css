@@ -1,0 +1,25 @@
+.display{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* vertical-align: text-bottom; */
+    
+}
+body{
+    background-color: aqua;
+    height: 100%;
+}
+.box{
+    width: 55px; height: 55px; margin:auto; display: inline-block; border: 1px solid gray; vertical-align: middle; border-radius: 2px; background: #00ff62 
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.unit{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 18px
+}
