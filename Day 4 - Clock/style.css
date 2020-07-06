@@ -1,12 +1,11 @@
-/* .display{
+h4{
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    /* vertical-align: text-bottom; */
-    
-/* }*/
+    margin-top: 20px;
+    font-size: 55px;
+    font-family: Cambria;
+    color: #000;
+    font-style: oblique;
+}
 body{
     background-color: #FED44C
 }
@@ -24,10 +23,10 @@ body{
          text-align: center;
          font-style: oblique;
          border-radius: 12px;
-         box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+         box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
 }
 p{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
 }
 .unit{
@@ -37,18 +36,18 @@ p{
     font-style: oblique;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    word-spacing: 30px;
+    word-spacing: 35px;
 
 }
 .display{
     border-radius: 12px;
     background-color:#FEA358;
-    margin-left: 40%;
+    margin-left: 35%;
     margin-right: 100%;
-    margin-bottom: 10%;
-    margin-top: 20%;
-  width: 22%;
+    margin-bottom: 12%;
+    margin-top: 12%;
+  width: 22.5%;
   border: 3px solid darkblue;
-  padding: 10px;
-  box-shadow: 12px 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 55px;
+  box-shadow: 12px 10px 10px rgba(0, 0, 0, 0.5);
 }
