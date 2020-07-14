@@ -1,23 +1,28 @@
+<!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>
-        Countdown Timer
+      CountDown-Timer
     </title>
-    <style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    </style>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-</head>
-<body>
-    <div>
-        <span class="display"></span>
+  <body>
+    <audio id="audio" src = "beep-07.wav" autoplay="false" ></audio>
+    <div class="time">
+      <h2><span id="display">Countdown Timer</span></h2>
     </div>
-    <div>
-        <h3>Enter starting time to count-down from</h3>
-        <option></option>
+    <div class="control">
+      <input type="datetime-local" id="timer" step="2">
+      <br>
+      <br>
+      <br>
+      <button id = "start" class="button">Start</button>
+      <button id = "stop" class="button">Stop</button>
     </div>
-</body>
+    <div id="myProgress">
+      <div id="myBar"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
